@@ -1,9 +1,9 @@
 "use strict";
 
-const category = "toys";
+let incr =  10,
+    decr = 10;
 
-console.log(`https://someurl.com/${category}/5`);
+++incr;
+--decr;
 
-const user = "Ine";
-
-alert(`Hi, ${user}`);
+console.log(incr, decr);
